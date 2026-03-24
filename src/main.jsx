@@ -3,10 +3,10 @@ import { createRoot } from "react-dom/client";
 import "./index.css";
 import App from "./App.jsx";
 import { createBrowserRouter, RouterProvider } from "react-router";
-import Apps from "./components/Apps/Apps.jsx";
 import Installation from "./components/Installation/Installation.jsx";
 import Home from "./components/Home/Home.jsx";
 import ErrorPage from "./components/ErrorPage/ErrorPage.jsx";
+import AllApps from "./components/AllApps/AllApps.jsx";
 
 const router = createBrowserRouter([
   {
@@ -19,7 +19,7 @@ const router = createBrowserRouter([
       },
       {
         path: "/apps",
-        Component: Apps,
+        Component: AllApps,
       },
       {
         path: "/installation",
