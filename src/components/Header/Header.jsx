@@ -61,7 +61,10 @@ const Navbar = () => {
           </ul>
         </div>
         <div className="navbar-end">
-          <Link className="btn btn-primary">
+          <Link
+            className="btn btn-primary"
+            to={"https://github.com/rejaur2287"}
+          >
             <img src={gitHubIcon} alt="Git Hub Icon" />
             Contribute
           </Link>

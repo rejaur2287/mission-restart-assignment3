@@ -1,10 +1,12 @@
 import React from "react";
+import Banner from "../Banner/Banner";
+import CurrentStatus from "../CurrentStatus/Currentstatus";
 
 const Home = () => {
   return (
     <div>
-      <h1>This is home.</h1>
-      {/* <h1 className="text-center">Assignment Starts Here</h1> */}
+      <Banner></Banner>
+      <CurrentStatus></CurrentStatus>
     </div>
   );
 };
