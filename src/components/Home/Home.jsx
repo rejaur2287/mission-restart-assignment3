@@ -1,6 +1,6 @@
 import React from "react";
 import Banner from "../Banner/Banner";
-import CurrentStatus from "../CurrentStatus/Currentstatus";
+import CurrentStatus from "../CurrentStatus/CurrentStatus";
 
 const Home = () => {
   return (
