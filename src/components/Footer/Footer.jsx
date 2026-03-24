@@ -7,12 +7,12 @@ import { Link } from "react-router";
 
 const Footer = () => {
   return (
-    <div className="bg-[#001931] py-10">
-      <div className="flex justify-between w-11/12 mx-auto border-b-2 border-gray-400 py-5">
+    <div className="bg-[#001931] py-10 px-2">
+      <div className="flex w-11/12 mx-auto p-2 justify-between">
         <div>
           <Link className="flex items-center">
             <img src={logo} alt="Company-Logo" width={40} height={40} />
-            <p>HERO.IO</p>
+            <span className="text-[#8a2be2] text-sm">HERO.IO</span>
           </Link>
         </div>
         <div>
@@ -24,7 +24,12 @@ const Footer = () => {
           </div>
         </div>
       </div>
-      <p className="text-center py-3">Copyright © 2025 - All right reserved</p>
+      <div className="w-11/12 mx-auto p-2">
+        <hr />
+        <p className="text-center py-4">
+          Copyright © 2025 - All right reserved
+        </p>
+      </div>
     </div>
   );
 };
