@@ -8,7 +8,6 @@ function App() {
     <div className="min-h-screen flex flex-col mt-3 text-center">
       <div className="flex flex-col flex-1">
         <Header />
-        {/* <Navbar></Navbar> */}
 
         <main className="flex-1">
           <Outlet />

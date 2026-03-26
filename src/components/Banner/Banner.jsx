@@ -16,12 +16,12 @@ const Banner = () => {
         simpler, smarter, and more exciting. Our goal is to turn your ideas into
         digital experiences that truly make an impact.
       </p>
-      <div className="my-6">
-        <button className="btn btn-outline mr-4 border-gray-600 px-5 py-2.5 ">
+      <div className="my-6 space-x-4">
+        <button className="btn btn-outline border-gray-600 btn-xs sm:btn-sm md:btn-md lg:btn-lg">
           <img src={googlePlay} alt="" />
           <span>Google Play</span>
         </button>
-        <button className="btn btn-outline border-gray-600 px-5 py-2.5 ">
+        <button className="btn btn-outline border-gray-600 btn-xs sm:btn-sm md:btn-md lg:btn-lg">
           <img src={appStore} alt="" />
           <span>App Store</span>
         </button>
