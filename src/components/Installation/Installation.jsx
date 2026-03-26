@@ -4,7 +4,7 @@ const Installation = () => {
   return (
     <div>
       <h1>Installed Apps Here</h1>
-      <P>You have Installed zero Apps</P>
+      <p>You have Installed zero Apps</p>
     </div>
   );
 };
